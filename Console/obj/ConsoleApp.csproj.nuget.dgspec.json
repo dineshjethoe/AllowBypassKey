@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj": {}
+    "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\Console\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj": {
+    "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\Console\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\Console\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\Console\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\x017290\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\obj\\",
+        "outputPath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\x017290\\AppData\\Roaming\\NuGet\\NuGet.Config",
