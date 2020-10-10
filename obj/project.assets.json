@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Office.Interop.Access.Dao/15.0.4420.1017": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Access.Dao.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Access.Dao.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Office.Interop.Access.Dao/15.0.4420.1017": {
+      "sha512": "gpEhglyPnZH5l0aV7cuyGFTE9Cx0XEYCeGT4vt4hd/eeTsMxCXJgO1zso0YHvOxDa34jtp67PBc1gk3VHHRFng==",
+      "type": "package",
+      "path": "microsoft.office.interop.access.dao/15.0.4420.1017",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Access.Dao.dll",
+        "microsoft.office.interop.access.dao.15.0.4420.1017.nupkg.sha512",
+        "microsoft.office.interop.access.dao.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Office.Interop.Access.Dao >= 15.0.4420.1017"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\x017290\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\x017290\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\x017290\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Access.Dao": {
+            "target": "Package",
+            "version": "[15.0.4420.1017, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Interop.Access.Dao 15.0.4420.1017' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Interop.Access.Dao",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

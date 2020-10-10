@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZxrE+5rJqgZIVwE8HZolaG946ttAxsQYPUbInL8VqWubZNiaSo7HdcDJ2dsoY2ukkqdqXODVA3LtwaTsfVCWow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\x017290\\source\\repos\\dinesh\\AllowBypassKey\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\x017290\\.nuget\\packages\\microsoft.office.interop.access.dao\\15.0.4420.1017\\microsoft.office.interop.access.dao.15.0.4420.1017.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Interop.Access.Dao 15.0.4420.1017' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Interop.Access.Dao",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
