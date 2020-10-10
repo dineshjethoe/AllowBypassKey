@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="DarkGray">
+        Title="MainWindow" Height="500" Width="500" Background="DarkGray">
     <DockPanel Margin="10" Background="DarkGray">
         <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10" Background="DarkGray">
             <Button Name="Browse" Click="Browse_Click" Background="DarkGray" Cursor="Hand" BorderBrush="WhiteSmoke">
@@ -17,8 +17,9 @@
                 </Button.Content>
             </Button>
         </WrapPanel>
-        <TextBlock>
-
-        </TextBlock>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <TextBlock Name="propsText" Text="{Binding Properties}" FontSize="14" Foreground="Yellow">
+            </TextBlock>
+        </ScrollViewer>
     </DockPanel>
 </Window>

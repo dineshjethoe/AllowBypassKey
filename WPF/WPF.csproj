@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Office.Interop.Access.Dao" Version="15.0.4420.1017" />
+  </ItemGroup>
+
 </Project>
