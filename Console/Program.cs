@@ -4,9 +4,9 @@ using System.IO;
 
 namespace ConsoleApp
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             if (args.Length != 2)
                 return;
@@ -45,7 +45,6 @@ namespace ConsoleApp
                     Console.WriteLine("Property 'AllowBypassKey' is set to 'False'.");
                     Console.WriteLine("You can no longer use the SHIFT key to enter the design mode.");
                 }
-
             }
             catch (Exception e)
             {
