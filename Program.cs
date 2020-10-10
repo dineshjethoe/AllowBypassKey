@@ -49,7 +49,15 @@ namespace ConsoleApp
             }
             catch (Exception e)
             {
-                Console.WriteLine($"The following error is thrown: {e.Message}");
+                if (e.Message.Contains("SSMA"))
+                {
+                    var url = @"https://www.microsoft.com/en-us/download/details.aspx?id=10910";
+                    Console.WriteLine($"The following error is thrown: {e.Message}.{Environment.NewLine}Please download and install the MS Access runtime (32 bit or 64 bit).{Environment.NewLine}URL: {url}");
+                }
+                else
+                {
+                    Console.WriteLine($"The following error is thrown: {e.Message}");
+                }
             }
         }
     }

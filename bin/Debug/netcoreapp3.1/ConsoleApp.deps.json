@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Access.Dao": "15.0.4420.1017"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Access.Dao/15.0.4420.1017": {
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Access.Dao.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4420.1017"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Interop.Access.Dao/15.0.4420.1017": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gpEhglyPnZH5l0aV7cuyGFTE9Cx0XEYCeGT4vt4hd/eeTsMxCXJgO1zso0YHvOxDa34jtp67PBc1gk3VHHRFng==",
+      "path": "microsoft.office.interop.access.dao/15.0.4420.1017",
+      "hashPath": "microsoft.office.interop.access.dao.15.0.4420.1017.nupkg.sha512"
+    }
+  }
+}
